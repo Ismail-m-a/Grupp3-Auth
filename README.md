@@ -1,4 +1,5 @@
-# TTFHW - I den här koden AUTH-SERVER.JS implementeras flera säkerhetsåtgärder för att skydda mot olika hot. Här är en sammanfattning av de säkerhetsåtgärder som används:
+# TTFHW - I den här koden AUTH-SERVER.JS implementeras flera säkerhetsåtgärder för att skydda mot olika hot. 
+Här är en sammanfattning av de säkerhetsåtgärder som används:
 
 ## Features:
 
@@ -51,4 +52,4 @@
 - Uses `users.json` for user data storage.
 
 
-For issues, check the [https://github.com/Ismail-m-a/Grupp3-Auth) or contact the maintainer.
+For issues, check the [https://github.com/Ismail-m-a/Grupp3-Auth).
