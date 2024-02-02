@@ -1,0 +1,5 @@
+[
+    { "email": "admin@example.com", "password": "$2b$10$/A/s9f6UJdkhPpWJbQKFi.bFLW3YGaoGaEs1HTYhKqoaCDx.AIqQG", "role": "admin", "failedLoginAttempts": 0, "lastFailedLoginAt": null },
+    { "email": "user@example.com", "password": "$2b$10$JIKmJPoxaH1kbYjhvYa20OjC5qX82UISs0edwBXqNn4vWsuWYfuQa", "role": "user", "failedLoginAttempts": 0, "lastFailedLoginAt": null }
+  ]
+  
