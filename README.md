@@ -1,23 +1,7 @@
-# TTFHW - I den här koden AUTH-SERVER.JS implementeras flera säkerhetsåtgärder för att skydda mot olika hot. 
+# TTFHW -  AUTH-SERVER.JS 
+Auth-server koden implementerar flera säkerhetsåtgärder för att skydda mot olika hot. 
 ## Här är en sammanfattning av de säkerhetsåtgärder som används:
 
-## Komma igång:
-
-1. **Installera beroenden:**
-   ```bash
-   npm install
-   ```
-
-2. **Konfigurera miljö:**
-   - Skapa en `.env`-fil med `JWT_SECRET`, `SECRET_USER_PASSWORD_1` och `SECRET_ADMIN_PASSWORD_2`.
-
-3. **Kör applikationen:**
-   ```bash
-   npm start
-   ```
-
-4. **API-slutpunkter:**
-   - **POST /login:** Hanterar användarautentisering. Kräver `email` och `password` i förfrågningskroppen.
 
 ## Funktioner:
 
@@ -48,6 +32,25 @@
    - Loggar inloggningsförsök och resultat för övervakning.
 
 
+  ## Komma igång:
+
+1. **Installera beroenden:**
+   ```bash
+   npm install
+   ```
+
+2. **Konfigurera miljö:**
+   - Skapa en `.env`-fil med `JWT_SECRET`, `SECRET_USER_PASSWORD_1` och `SECRET_ADMIN_PASSWORD_2`.
+
+3. **Kör applikationen:**
+   ```bash
+   npm start
+   ```
+
+4. **API-slutpunkter:**
+   - **POST /login:** Hanterar användarautentisering. Kräver `email` och `password` i förfrågningskroppen.
+
+     
 
 ## Anteckningar:
 - Ange miljövariabler innan du kör.
