@@ -1,55 +1,55 @@
-# TTFHW - I den här koden AUTH-SERVER.JS implementeras flera säkerhetsåtgärder för att skydda mot olika hot. 
-Här är en sammanfattning av de säkerhetsåtgärder som används:
+# TTFHW - I den här koden AUTH-SERVER.JS implementeras flera säkerhetsåtgärder för att skydda mot olika hot. Här är en sammanfattning av de säkerhetsåtgärder som används:
 
-## Features:
+## Komma igång:
 
-1. **User Authentication:**
-   - Implements JWT-based user authentication.
-   - Ensures password security using bcrypt.
-
-2. **Rate Limiting:**
-   - Controls login requests with Express Rate Limit middleware.
-   - Limits each IP to 3 login requests per minute.
-
-3. **Security Headers:**
-   - Enhances security using Helmet middleware.
-
-4. **Account Lockout:**
-   - Locks accounts for 15 minutes after too many failed login attempts.
-
-5. **Environment Variables:**
-   - Loads environment variables from a `.env` file.
-
-6. **XSS Prevention:**
-   - Escapes user input to prevent XSS attacks.
-
-7. **Password Hashing Update:**
-   - Updates existing passwords to their hashed versions.
-
-8. **Login Logging:**
-   - Logs login attempts and outcomes for monitoring.
-
-## Getting Started:
-
-1. **Install Dependencies:**
+1. **Installera beroenden:**
    ```bash
    npm install
    ```
 
-2. **Configure Environment:**
-   - Create a `.env` file with `JWT_SECRET`, `SECRET_USER_PASSWORD_1`, and `SECRET_ADMIN_PASSWORD_2`.
+2. **Konfigurera miljö:**
+   - Skapa en `.env`-fil med `JWT_SECRET`, `SECRET_USER_PASSWORD_1` och `SECRET_ADMIN_PASSWORD_2`.
 
-3. **Run the Application:**
+3. **Kör applikationen:**
    ```bash
    npm start
    ```
 
-4. **API Endpoints:**
-   - **POST /login:** Handles user authentication. Requires `email` and `password` in the request body.
+4. **API-slutpunkter:**
+   - **POST /login:** Hanterar användarautentisering. Kräver `email` och `password` i förfrågningskroppen.
 
-## Notes:
-- Set environment variables before running.
-- Uses `users.json` for user data storage.
+## Funktioner:
+
+1. **Användarautentisering:**
+   - Implementerar användarautentisering baserad på JWT.
+   - Säkerställer lösenordssäkerhet med bcrypt.
+
+2. **Rate Limiting:**
+   - Kontrollerar inloggningsförfrågningar med Express Rate Limit-mellanprogrammet.
+   - Begränsar varje IP till 3 inloggningsförfrågningar per minut.
+
+3. **Säkerhetsrubriker:**
+   - Förbättrar säkerheten med Helmet-mellanprogrammet.
+
+4. **Kontokontroll:**
+   - Låser konton i 15 minuter efter för många misslyckade inloggningsförsök.
+
+5. **Miljövariabler:**
+   - Laddar miljövariabler från en `.env`-fil.
+
+6. **XSS-förebyggande:**
+   - Undviker XSS-attacker genom att escapera användarinput.
+
+7. **Uppdatering av lösenordshashtabell:**
+   - Uppdaterar befintliga lösenord till deras hashtabeller.
+
+8. **Inloggningsloggning:**
+   - Loggar inloggningsförsök och resultat för övervakning.
 
 
-For issues, check the [https://github.com/Ismail-m-a/Grupp3-Auth).
+
+## Anteckningar:
+- Ange miljövariabler innan du kör.
+- Använder `users.json` för lagring av användardata.
+
+För problem, kontrollera [https://github.com/Ismail-m-a/Grupp3-Auth).
