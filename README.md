@@ -1,4 +1,5 @@
-# TTFHW - I den här koden AUTH-SERVER.JS implementeras flera säkerhetsåtgärder för att skydda mot olika hot. Här är en sammanfattning av de säkerhetsåtgärder som används:
+# TTFHW - I den här koden AUTH-SERVER.JS implementeras flera säkerhetsåtgärder för att skydda mot olika hot. 
+## Här är en sammanfattning av de säkerhetsåtgärder som används:
 
 ## Komma igång:
 
@@ -35,7 +36,7 @@
    - Låser konton i 15 minuter efter för många misslyckade inloggningsförsök.
 
 5. **Miljövariabler:**
-   - Laddar miljövariabler från en `.env`-fil.
+   - Laddar miljövariabler från en `.env`-fil och lägger till filen i .gitignore för att undvika att den spåras av Git.
 
 6. **XSS-förebyggande:**
    - Undviker XSS-attacker genom att escapera användarinput.
