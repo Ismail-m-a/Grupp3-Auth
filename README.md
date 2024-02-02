@@ -1,6 +1,6 @@
 # TTFHW -  AUTH-SERVER.JS 
 Auth-server koden implementerar flera säkerhetsåtgärder för att skydda mot olika hot. 
-## Här är en sammanfattning av de säkerhetsåtgärder som används:
+Här är en sammanfattning av de säkerhetsåtgärder som används:
 
 
 ## Funktioner:
